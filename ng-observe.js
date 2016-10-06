@@ -1,6 +1,6 @@
-angular.module('ngObserve', []);
-
-angular.module('ngObserve').factory('Observe', function () {
+"use strict";
+angular.module('ngObserve', [])
+.factory('Observe', function () {
     var Observe = function (data) {
 
         var _listeners = [];
@@ -14,8 +14,7 @@ angular.module('ngObserve').factory('Observe', function () {
 
         Subscriber.prototype = {
             cancel: function () {
-                var i;
-                for (i = 0; i < _listeners.length; i++) {
+                for (var i = 0; i < _listeners.length; i++) {
                     if (this.id === _listeners[i].id) {
                         _listeners.splice(i, 1);
                         return true;
