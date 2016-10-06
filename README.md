@@ -51,7 +51,7 @@ app.controller('OtherCtrl', function($scope, dataService) {
 index.html
 ```sh
 <!DOCTYPE html>
-<html ng-app="easyObserve">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>Example ng-observe</title>
