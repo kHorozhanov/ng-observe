@@ -1,6 +1,6 @@
 angular.module('ngObserve', []);
 
-app.factory('Observe', function () {
+angular.module('ngObserve').factory('Observe', function () {
     var Observe = function (data) {
 
         var _listeners = [];
