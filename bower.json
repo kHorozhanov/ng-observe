@@ -5,11 +5,14 @@
   "authors": [
     "kGorozhanov <kostya.gorozhanov@gmail.com>"
   ],
+  "version": "1.0.0",
   "description": "small factory to make observable objects",
   "keywords": [
     "observe",
     "angular",
-    "subscribe"
+    "subscribe",
+    "ng-observe",
+    "ngObserve"
   ],
   "license": "MIT",
   "ignore": [
